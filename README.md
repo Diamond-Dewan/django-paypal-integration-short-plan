@@ -38,7 +38,7 @@ Release a candidate version based on bug fixed.
 
 **Internal Documentation:**
 
-Documenting the internal design of software how each method works and the specific purpose they fulfill.This is a complete code specification to make upgrades and troubleshoot bugs that were missed in the initial testing phase.
+Documenting the internal design of software how each method works and the specific purpose they fulfill. This is a complete code specification to make upgrades and troubleshoot bugs that were missed in the initial testing phase.
 
 **User Documentation:**
 
@@ -55,7 +55,7 @@ After the successful test, approved for release, and distributed into the produc
 ## Maintenance
 
 It takes valuable time and effort, as missed requirements may force the redesign of the software.
-    1. Additional Release - As Version 1.0 will not be the last release. Maintaining and enhancing is required to cope with newly discovered faults or requirements. 
+1. **Additional Release** - As Version 1.0 will not be the last release. Maintaining and enhancing is required to cope with newly discovered faults or requirements. 
 
 |            Task              |      Time       |
 | ---------------------------- |-----------------|
