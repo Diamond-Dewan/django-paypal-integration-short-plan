@@ -59,19 +59,19 @@ It takes valuable time and effort, as missed requirements may force the redesign
 
 |            Task              |      Time       |
 | ---------------------------- |-----------------|
-| Scope identification         |        4        |
-| Requirements Analysis        |        5        |
-| Design                       |        5        |
-| Pre-Alpha                    |        5        |
-| Development                  |        25       |
-| Alpha                        |        6        |
-| Beta                         |        10       |
-| Preview Release              |        7        |
-| Testing                      |        8        |
-| Release Candidate            |        6        |
-| Documentation                |        10       |
-| Final Release                |        5        |
-| Installation and deployment  |        2        |
-| Maintenance                  |        10       |
-| Additional Release           |        12       |
+| Scope identification         |                4|
+| Requirements Analysis        |                5|
+| Design                       |                5|
+| Pre-Alpha                    |                5|
+| Development                  |               25|
+| Alpha                        |                6|
+| Beta                         |               10|
+| Preview Release              |                7|
+| Testing                      |                8|
+| Release Candidate            |                6|
+| Documentation                |               10|
+| Final Release                |                5|
+| Installation and deployment  |                2|
+| Maintenance                  |               10|
+| Additional Release           |               12|
 | **DURATION**                 |   **120 days**  |
