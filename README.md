@@ -57,23 +57,21 @@ After the successful test, approved for release, and distributed into the produc
 It takes valuable time and effort, as missed requirements may force the redesign of the software.
     1. Additional Release - As Version 1.0 will not be the last release. Maintaining and enhancing is required to cope with newly discovered faults or requirements. 
 
-| Task                         |  Optimistic | Most likely |  Pessimistic |    Expected | Parallel with the previous |
-| ---------------------------- | ----------: | ----------: | -----------: | ----------: | -------------------------: |
-| Scope identification         |           1 |           1 |            2 |           2 |                          0 |
-| Analysis of needs            |           1 |           1 |            3 |           2 |                          0 |
-| Design                       |           3 |           5 |            7 |           5 |                          0 |
-| Pre-Alpha                    |           1 |           2 |            4 |           3 |                          1 |
-| Development                  |          10 |          14 |           25 |          16 |                          0 |
-| Alpha                        |           2 |           3 |            5 |           4 |                          0 |
-| Beta                         |           2 |           3 |            5 |           4 |                          0 |
-| Preview Release              |           3 |           5 |            7 |           5 |                          0 |
-| Testing                      |           3 |           5 |            7 |           5 |                          0 |
-| Release Candidate            |           3 |           5 |            7 |           5 |                          1 |
-| Training process development |           3 |           5 |            7 |           5 |                          1 |
-| Documentation                |           4 |           6 |           10 |           7 |                          1 |
-| Pilot program                |           2 |           3 |            5 |           4 |                          1 |
-| Final Release                |           3 |           5 |           10 |           6 |                          0 |
-| Installation and deployment  |           1 |           2 |            3 |           2 |                          0 |
-| Maintenance                  |           7 |          10 |           14 |          11 |                          0 |
-| Additional Release           |           3 |           5 |           10 |           6 |                          0 |
-| **DURATION**                 | **40 days** | **60 days** | **100 days** | **70 days** |                            |
+|            Task              |      Time       |
+| ---------------------------- |-----------------|
+| Scope identification         |        4        |
+| Requirements Analysis        |        5        |
+| Design                       |        5        |
+| Pre-Alpha                    |        5        |
+| Development                  |        25       |
+| Alpha                        |        6        |
+| Beta                         |        10       |
+| Preview Release              |        7        |
+| Testing                      |        8        |
+| Release Candidate            |        6        |
+| Documentation                |        10       |
+| Final Release                |        5        |
+| Installation and deployment  |        2        |
+| Maintenance                  |        10       |
+| Additional Release           |        12       |
+| **DURATION**                 |   **120 days**  |
