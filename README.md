@@ -18,7 +18,7 @@ The requirement of this project is develop a general payment system where custom
     4. Give the checkout link to the customer. 
     5. Get checkout confirmation status and proceed to the delivery process.
     6. Refund for a certain case.
-3. **Pre-Alpha** - Project demo: https://github.com/Diamond-Dewan/django-paypal
+3. **Pre-Alpha** - Pre alpha release of the project https://github.com/Diamond-Dewan/django-paypal
 
 ## Implementation
 
