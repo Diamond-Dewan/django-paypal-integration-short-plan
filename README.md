@@ -8,25 +8,25 @@ The requirement of this project is develop a general payment system where custom
 
 ## Project design
 
-1. Properties:
-    a. PayPal token to make an order. 
-    b. Database to save payment information.
-2. Methods:
-    a. Get PayPal client_id and secret_id then request for a token.
-    b. Get customer order items price and make an order using token.
-    c. Save the order information in the database.
-    d. Give the checkout link to the customer. 
-    e. Get checkout confirmation status and proceed to the delivery process.
-    f. Refund for a certain case.
+1. **Properties:**
+    1. PayPal token to make an order. 
+    2. Database to save payment information.
+2. **Methods:**
+    1. Get PayPal client_id and secret_id then request for a token.
+    2. Get customer order items price and make an order using token.
+    3. Save the order information in the database.
+    4. Give the checkout link to the customer. 
+    5. Get checkout confirmation status and proceed to the delivery process.
+    6. Refund for a certain case.
 3. **Pre-Alpha** - Project demo: https://github.com/Diamond-Dewan/django-paypal
 
 ## Implementation
 
 In this stage, I will develop methods and test individually one by one, based on design properties and methods.
-1. Versions
-    a. Alpha - Write the primary logic of methods.
-    b. Beta - Recheck and write each method in terms of security and useability.
-    c. Preview - Release a preview state for practical usage and collect feedbacks.
+1. **Versions**
+    1. _Alpha_ - Write the primary logic of methods.
+    2. _Beta_ - Recheck and write each method in terms of security and useability.
+    3. _Preview_ - Release a preview state for practical usage and collect feedbacks.
 
 ## Testing (or Validation)
 
@@ -37,13 +37,16 @@ Release a candidate version based on bug fixed.
 ## Documenting
 
 **Internal Documentation:**
-    Documenting the internal design of software how each method works and the specific purpose they fulfill.This is a complete code specification to make upgrades and troubleshoot bugs that were missed in the initial testing phase.
+
+Documenting the internal design of software how each method works and the specific purpose they fulfill.This is a complete code specification to make upgrades and troubleshoot bugs that were missed in the initial testing phase.
 
 **User Documentation:**
-    Manuals for End Users specify how each task of the application can be accomplished. This documentation will increase the useability of the application and save technical support from the trouble of answering basic questions.
+
+Manuals for End Users specify how each task of the application can be accomplished. This documentation will increase the useability of the application and save technical support from the trouble of answering basic questions.
     
 **Final Release:** 
-    This is the final version(i.e: Version 1.0) of the project with proper documentation.
+
+This is the final version(i.e: Version 1.0) of the project with proper documentation.
 
 ## Deployment
 
