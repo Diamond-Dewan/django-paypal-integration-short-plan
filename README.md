@@ -1,0 +1,1 @@
+# django-paypal-integration-short-plan
