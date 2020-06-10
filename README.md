@@ -1,1 +1,76 @@
-# django-paypal-integration-short-plan
+# Django PayPal Integration Short Plan
+
+## Requirements analysis
+
+PayPal provides a worldwide payment system. More and more business houses and implementing PayPay payment services for performing commercial transactions over the web. it is reasonable to say that the PayPay payment method on business websites is becoming a common option.  
+
+The requirement of this project is develop a general payment system where customers can make an instant payment through PayPal. I will use Django-REST-Framework to integrate the PayPal payment system.
+
+## Project design
+
+1. Properties:
+    a. PayPal token to make an order. 
+    b. Database to save payment information.
+2. Methods:
+    a. Get PayPal client_id and secret_id then request for a token.
+    b. Get customer order items price and make an order using token.
+    c. Save the order information in the database.
+    d. Give the checkout link to the customer. 
+    e. Get checkout confirmation status and proceed to the delivery process.
+    f. Refund for a certain case.
+3. **Pre-Alpha** - Project demo: https://github.com/Diamond-Dewan/django-paypal
+
+## Implementation
+
+In this stage, I will develop methods and test individually one by one, based on design properties and methods.
+1. Versions
+    a. Alpha - Write the primary logic of methods.
+    b. Beta - Recheck and write each method in terms of security and useability.
+    c. Preview - Release a preview state for practical usage and collect feedbacks.
+
+## Testing (or Validation)
+
+Test the application to check every component is working as expected way. Identify the bugs of the code and make changes as necessary to meet the design requirements.
+
+Release a candidate version based on bug fixed.
+
+## Documenting
+
+**Internal Documentation:**
+    Documenting the internal design of software how each method works and the specific purpose they fulfill.This is a complete code specification to make upgrades and troubleshoot bugs that were missed in the initial testing phase.
+
+**User Documentation:**
+    Manuals for End Users specify how each task of the application can be accomplished. This documentation will increase the useability of the application and save technical support from the trouble of answering basic questions.
+    
+**Final Release:** 
+    This is the final version(i.e: Version 1.0) of the project with proper documentation.
+
+## Deployment
+
+After the successful test, approved for release, and distributed into the production environment for end-users. 
+
+## Maintenance
+
+It takes valuable time and effort, as missed requirements may force the redesign of the software.
+    1. Additional Release - As Version 1.0 will not be the last release. Maintaining and enhancing is required to cope with newly discovered faults or requirements. 
+
+| Task                         |  Optimistic | Most likely |  Pessimistic |    Expected | Parallel with the previous |
+| ---------------------------- | ----------: | ----------: | -----------: | ----------: | -------------------------: |
+| Scope identification         |           1 |           1 |            2 |           2 |                          0 |
+| Analysis of needs            |           1 |           1 |            3 |           2 |                          0 |
+| Design                       |           3 |           5 |            7 |           5 |                          0 |
+| Pre-Alpha                    |           1 |           2 |            4 |           3 |                          1 |
+| Development                  |          10 |          14 |           25 |          16 |                          0 |
+| Alpha                        |           2 |           3 |            5 |           4 |                          0 |
+| Beta                         |           2 |           3 |            5 |           4 |                          0 |
+| Preview Release              |           3 |           5 |            7 |           5 |                          0 |
+| Testing                      |           3 |           5 |            7 |           5 |                          0 |
+| Release Candidate            |           3 |           5 |            7 |           5 |                          1 |
+| Training process development |           3 |           5 |            7 |           5 |                          1 |
+| Documentation                |           4 |           6 |           10 |           7 |                          1 |
+| Pilot program                |           2 |           3 |            5 |           4 |                          1 |
+| Final Release                |           3 |           5 |           10 |           6 |                          0 |
+| Installation and deployment  |           1 |           2 |            3 |           2 |                          0 |
+| Maintenance                  |           7 |          10 |           14 |          11 |                          0 |
+| Additional Release           |           3 |           5 |           10 |           6 |                          0 |
+| **DURATION**                 | **40 days** | **60 days** | **100 days** | **70 days** |                            |
